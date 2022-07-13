@@ -1,0 +1,45 @@
+body  {
+	background-image: linear-gradient(to left,#004e8e, #014684, #013d7b, #013571, #012d68, #012963, #01265f, #01225a, #012159, #012058, #002057, #001f56);
+    background-attachment: fixed;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+#back {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+
+}
+.event-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: inherit;
+    justify-content: center;
+}
+.event {
+    width: 280px;
+    border-top: 3px  rgb(45, 121, 209) dashed;
+    border-right: 3px rgb(45, 121, 209) dashed;
+    border-left: 3px rgb(45, 121, 209) dashed;
+    margin-bottom: 30px;
+
+}
+.event img {
+    width:100%;
+    height: 350px;
+}
+.event-info {
+    width: 100%;
+    border-bottom: 3px rgb(45, 121, 209) dashed ;
+    background-color: white;
+    text-align: center;
+}
+.event-info h2,h4,h5 {
+    padding-bottom: 15px;
+}
